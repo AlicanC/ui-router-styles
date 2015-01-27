@@ -74,7 +74,7 @@ angular.module('ui.router.styles', ['ui.router'])
 
 					scope.templateStyles = [];
 
-					var start = $interpolate.startSymbol(),
+					var start = $interpolate.startSymbol();
 					var end = $interpolate.endSymbol();
 
 					var html = '<link rel="stylesheet" ng-repeat="style in templateStyles" ng-href="'+start+'style'+end+'">';
